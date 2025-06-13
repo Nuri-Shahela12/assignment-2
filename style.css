@@ -175,15 +175,13 @@ border: 1px solid #3cd8e8;
 border-radius: 30px;
 }
 .box-1{
-    background: white;
-    border-radius: 20px;
+   
 }
 .box-1 h3{
     font-size: 24px;
 }
 .box-1 p{
     font-size: 14px;
-    padding-bottom: 20px;
 }
 
 .box-2 button{
@@ -233,6 +231,11 @@ color: white;
 .box-1{
     grid-row: span 2; 
 }
+.our-stories{
+    background: #c3cace;
+}
+.stories-continer{
+}
 /*footer*/
 .footer-continer{
     display: flex;
@@ -262,4 +265,12 @@ color: white;
 }
 .footer-box3 h4{
     font-size: 20px;
+}
+@media screen and (max-width:576px) {
+    .head-container, .standard-row, .footer-continer, .nav{
+        flex-direction: column;
+    }
+    .nav{
+      gap: 20px;  
+    }
 }
